@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="A personal high-speed OSN mathematics training quiz.">
+  <title>OSN SpeedLab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Configure MathJax before loading it. Supports both $...$ / $$...$$ and \( ... \) / \[ ... \].
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(', '\\)']],
+        displayMath: [['$$','$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      startup: { typeset: false }
+    };
+  </script>
+  <script id="mathjax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="OSN SpeedLab home" id="homeLink">
+        <span class="brand-mark">S</span>
+        <span>OSN <strong>SpeedLab</strong><small>REFLEX TRAINING SYSTEM</small></span>
+      </a>
+      <div class="top-actions">
+        <span class="saved-indicator"><span class="status-dot"></span> Saved locally</span>
+        <button class="icon-button" id="statsButton" type="button" title="View statistics" aria-label="View statistics">↗</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="homeScreen" class="screen">
+        <div class="hero">
+          <div class="eyebrow"><span class="eyebrow-line"></span> TRAIN WITH INTENTION</div>
+          <h1>Think fast.<br><span>Prove yourself.</span></h1>
+          <p class="hero-copy">A personal training ground for OSN Mathematics. Sharpen calculation speed, theorem recall, and the ability to switch between both.</p>
+          <div class="hero-meta"><span>◷ Per-question timer</span><span>⌘ Keyboard friendly</span><span>▣ Runs in your browser</span></div>
+        </div>
+
+        <div class="section-heading">
+          <div><p class="kicker">01 / SELECT A TRAINING MODE</p><h2>What are we training today?</h2></div>
+          <span class="muted small">3 MODES AVAILABLE</span>
+        </div>
+        <div class="mode-grid">
+          <button class="mode-card" data-mode="mental" type="button">
+            <span class="mode-number">01</span><span class="mode-icon">ϟ</span>
+            <span class="mode-title">Mental Math</span>
+            <span class="mode-description">Fast calculation, number sense, and algebraic shortcuts.</span>
+            <span class="mode-tags"><i>ARITHMETIC</i><i>NUMBERS</i></span>
+            <span class="mode-arrow">↗</span>
+          </button>
+          <button class="mode-card" data-mode="method" type="button">
+            <span class="mode-number">02</span><span class="mode-icon">⌘</span>
+            <span class="mode-title">Method Recall</span>
+            <span class="mode-description">Theorems, identities, formulas, and recognizing techniques.</span>
+            <span class="mode-tags"><i>THEOREMS</i><i>IDENTITIES</i></span>
+            <span class="mode-arrow">↗</span>
+          </button>
+          <button class="mode-card mixed-card" data-mode="mixed" type="button">
+            <span class="mode-number">03</span><span class="mode-icon">◈</span>
+            <span class="mode-title">Mixed Mode</span>
+            <span class="mode-description">Switch between calculation and recall with a shuffled set.</span>
+            <span class="mode-tags"><i>ADAPTABILITY</i><i>ALL SKILLS</i></span>
+            <span class="mode-arrow">↗</span>
+          </button>
+        </div>
+
+        <div class="setup-grid">
+          <section class="panel setup-panel">
+            <div class="panel-heading"><div><p class="kicker">02 / SESSION SETUP</p><h2>Set your pace</h2></div><span class="panel-icon">◷</span></div>
+            <label class="field-label" for="timeLimit">Default time per question</label>
+            <div class="time-control">
+              <button id="timeMinus" class="step-button" type="button" aria-label="Decrease time">−</button>
+              <div class="time-value"><input id="timeLimit" type="number" min="3" max="120" value="10" aria-label="Seconds per question"><span>SECONDS</span></div>
+              <button id="timePlus" class="step-button" type="button" aria-label="Increase time">+</button>
+            </div>
+            <div class="preset-row"><button class="preset" data-seconds="5" type="button">5 sec</button><button class="preset" data-seconds="10" type="button">10 sec</button><button class="preset" data-seconds="15" type="button">15 sec</button><button class="preset" data-seconds="30" type="button">30 sec</button></div>
+            <div class="form-row">
+              <div><label class="field-label" for="questionCount">Questions per run</label><select id="questionCount"><option value="5">5 questions</option><option value="10" selected>10 questions</option><option value="15">15 questions</option><option value="20">20 questions</option><option value="all">All available</option></select></div>
+              <div><label class="field-label" for="difficulty">Difficulty</label><select id="difficulty"><option value="all">All levels</option><option>Easy</option><option>Medium</option><option>Hard</option></select></div>
+            </div>
+            <button id="startBankButton" class="primary-button full-button" type="button">Start question bank <span>→</span></button>
+            <p class="fine-print">Questions are shuffled. The selected pace is the base timer; optional question multipliers adjust it.</p>
+          </section>
+
+          <section class="panel custom-panel">
+            <div class="panel-heading"><div><p class="kicker">03 / YOUR OWN MATERIAL</p><h2>Bring a question</h2></div><span class="panel-icon">＋</span></div>
+            <p class="panel-copy">Paste a question from your notes or create a quick drill. You provide the answer key and explanation.</p>
+            <button id="customButton" class="secondary-button full-button" type="button">Create custom question <span>＋</span></button>
+            <div class="divider-label"><span>OR</span></div>
+            <button id="importButton" class="text-button" type="button">Import question bank JSON <span>↗</span></button>
+            <input type="file" id="importFile" accept=".json,application/json" hidden>
+            <p class="fine-print">Imported questions are added to this browser's saved question bank.</p>
+          </section>
+        </div>
+
+        <section class="bottom-strip">
+          <div><span class="strip-icon">◎</span><div><strong>Train your retrieval speed</strong><p>Short, focused reps beat passive rereading.</p></div></div>
+          <button id="reviewButton" class="text-button" type="button">Review recent results <span>→</span></button>
+        </section>
+      </section>
+
+      <section id="quizScreen" class="screen hidden" aria-live="polite">
+        <div class="quiz-topline"><button id="quitButton" class="back-button" type="button">← Exit session</button><span id="quizModeLabel" class="mode-pill">MENTAL MATH</span><span id="questionCounter" class="muted small">01 / 10</span></div>
+        <div class="progress-track"><div id="progressBar" class="progress-fill"></div></div>
+        <div class="quiz-layout">
+          <section class="question-panel">
+            <div class="question-meta"><span id="topicLabel" class="topic-pill">NUMBER THEORY</span><span id="difficultyLabel" class="muted small">MEDIUM</span></div>
+            <div class="timer-row"><div><span class="timer-caption">TIME REMAINING</span><div class="timer-display"><span id="timerNumber">10</span><span class="timer-unit">SEC</span></div></div><div class="timer-ring" id="timerRing"><svg viewBox="0 0 44 44" aria-hidden="true"><circle class="ring-bg" cx="22" cy="22" r="18"></circle><circle id="ringProgress" class="ring-progress" cx="22" cy="22" r="18"></circle></svg></div></div>
+            <h1 id="questionText" class="question-text">Question text</h1>
+            <div id="answerArea" class="answer-area"></div>
+            <div class="quiz-hint"><span>⌨</span> Multiple choice: click an option or press <kbd>1</kbd>–<kbd>6</kbd> to submit. Numeric: type your answer and press <kbd>Enter</kbd>.</div>
+            <div class="quiz-footer"><span id="questionStatus" class="muted small">Answer before the timer reaches zero.</span><button id="submitButton" class="primary-button" type="button">Submit answer <span>↗</span></button></div>
+          </section>
+          <aside class="session-sidebar">
+            <div class="mini-stat"><span class="mini-label">SCORE</span><strong id="liveScore">0 <small>/ 0</small></strong></div>
+            <div class="mini-stat"><span class="mini-label">ACCURACY</span><strong id="liveAccuracy">—</strong></div>
+            <div class="mini-stat"><span class="mini-label">AVG. RESPONSE</span><strong id="liveAverage">—</strong></div>
+            <div class="sidebar-note"><span>✳</span><p><strong>Stay decisive.</strong><br>Choose the best answer, then move on. Your review comes at the end.</p></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="resultsScreen" class="screen hidden">
+        <div class="results-hero"><p class="kicker">SESSION COMPLETE</p><h1 id="resultTitle">Good work.</h1><p id="resultSubtitle" class="hero-copy">Here is your performance breakdown.</p></div>
+        <div class="result-stat-grid">
+          <div class="result-stat"><span>FINAL SCORE</span><strong id="resultScore">0/0</strong></div>
+          <div class="result-stat"><span>ACCURACY</span><strong id="resultAccuracy">0%</strong></div>
+          <div class="result-stat"><span>AVG. RESPONSE</span><strong id="resultAverage">0s</strong></div>
+          <div class="result-stat"><span>TIMEOUTS</span><strong id="resultTimeouts">0</strong></div>
+        </div>
+        <div class="results-actions"><button id="retryButton" class="primary-button" type="button">Run it again <span>↻</span></button><button id="homeButton" class="secondary-button" type="button">Back to home</button></div>
+        <div class="section-heading review-heading"><div><p class="kicker">REVIEW / ANSWERS & EXPLANATIONS</p><h2>Learn from every rep</h2></div><span id="reviewCount" class="muted small">0 ITEMS</span></div>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+
+      <section id="statsScreen" class="screen hidden">
+        <div class="section-heading"><div><p class="kicker">YOUR TRAINING LOG</p><h1>Performance history</h1><p class="hero-copy">Your results are stored in this browser, on this device.</p></div><button id="statsHomeButton" class="secondary-button" type="button">← Home</button></div>
+        <div id="historySummary" class="result-stat-grid"></div>
+        <div id="historyList" class="history-list"></div>
+        <button id="clearHistoryButton" class="text-button danger-text" type="button">Clear saved results</button>
+      </section>
+    </main>
+    <footer><span>OSN SPEEDLAB <span class="footer-dot">•</span> PERSONAL TRAINING BUILD 01</span><span>Built for reps, not excuses.</span></footer>
+  </div>
+
+  <dialog id="customDialog" class="modal">
+    <form id="customForm" method="dialog">
+      <div class="modal-heading"><div><p class="kicker">CUSTOM QUESTION</p><h2>Add to your drill</h2></div><button type="button" id="closeCustom" class="close-button" aria-label="Close">×</button></div>
+      <label class="field-label" for="customQuestion">Question</label><textarea id="customQuestion" rows="3" required placeholder="Write the problem here..."></textarea>
+      <div class="form-row">
+        <div><label class="field-label" for="customMode">Training mode</label><select id="customMode"><option value="mental">Mental Math</option><option value="method">Method Recall</option></select></div>
+        <div><label class="field-label" for="customTopic">Topic</label><input id="customTopic" placeholder="e.g. Number Theory" required></div>
+      </div>
+      <div class="form-row">
+        <div><label class="field-label" for="customType">Answer format</label><select id="customType"><option value="multiple">Multiple choice</option><option value="numeric">Numerical answer</option></select></div>
+        <div><label class="field-label" for="customMultiplier">Time multiplier (optional)</label><input id="customMultiplier" type="number" min="0.25" max="5" step="0.1" value="1"><p class="fine-print">Example: 1.2 gives 36 seconds at a 30-second pace. Leave at 1 for the default.</p></div>
+      </div>
+      <div id="customOptionsGroup"><label class="field-label" for="customOptions">Options (one per line, 2–6 options)</label><textarea id="customOptions" rows="4" placeholder="Option A&#10;Option B&#10;Option C&#10;Option D"></textarea></div>
+      <label class="field-label" for="customAnswer">Correct answer</label><input id="customAnswer" required placeholder="Must match one option, or a number">
+      <label class="field-label" for="customExplanation">Explanation (optional)</label><textarea id="customExplanation" rows="2" placeholder="Short solution or theorem reminder"></textarea>
+      <div class="modal-actions"><button type="button" id="cancelCustom" class="secondary-button">Cancel</button><button type="submit" class="primary-button">Save question <span>＋</span></button></div>
+      <p class="fine-print">Custom questions are saved only in this browser. They are not uploaded to GitHub.</p>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
