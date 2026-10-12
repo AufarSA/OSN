@@ -15,41 +15,6 @@ A personal OSN Mathematics speed-training quiz built with plain HTML, CSS, and J
 - Import a JSON bank into the current browser.
 - Responsive layout and keyboard shortcuts.
 
-## Run it locally
-
-Because the site loads `questions.json` with `fetch()`, don't open `index.html` directly as a `file://` URL. Use a local static server.
-
-### Option A: VS Code Live Server
-1. Open the project folder in VS Code.
-2. Install the **Live Server** extension if you don't have it.
-3. Right-click `index.html` and choose **Open with Live Server**.
-
-### Option B: Python
-In a terminal inside this folder, run:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`.
-
-## Publish with GitHub Pages
-
-1. Sign in to GitHub and create a repository, e.g. `osn-speedlab`.
-2. Upload these files to the repository root:
-   - `index.html`
-   - `styles.css`
-   - `app.js`
-   - `questions.json`
-   - `README.md`
-3. Open **Settings → Pages** in the repository.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select your default branch (usually `main`) and folder `/ (root)`, then click **Save**.
-6. Wait for GitHub Pages to publish. The site URL will appear in the Pages settings, usually:
-   `https://YOUR-USERNAME.github.io/osn-speedlab/`
-
-No build step is required. The repository can be public or private subject to your GitHub Pages plan/settings.
-
 ## LaTeX math rendering
 
 Questions, multiple-choice options, answers, and explanations can include LaTeX. The page uses MathJax 3, loaded from jsDelivr, and supports inline math with `$...$` or `\\(...\\)` and display math with `$$...$$` or `\\[...\\]`. Display math is best placed on its own line. A network connection is required for MathJax to load.
