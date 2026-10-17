@@ -1,0 +1,1876 @@
+[
+  {
+    "id": "ar-001",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Hasil dari 47 + 38 adalah ...",
+    "options": [
+      "95",
+      "83",
+      "85",
+      "75"
+    ],
+    "answer": "85",
+    "explanation": "47 + 38 = 47 + 40 − 2 = 85.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "penjumlahan"
+    ]
+  },
+  {
+    "id": "ar-002",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Hasil dari 25 × 48 adalah ...",
+    "answer": "1200",
+    "explanation": "25 × 48 = 100 × 12 = 1200 (25 × 4 = 100).",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "perkalian",
+      "trik"
+    ]
+  },
+  {
+    "id": "ar-003",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Hasil dari 98 × 15 adalah ...",
+    "answer": "1470",
+    "explanation": "98 × 15 = 100 × 15 − 2 × 15 = 1500 − 30 = 1470.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "perkalian",
+      "trik"
+    ]
+  },
+  {
+    "id": "ar-004",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "18% dari 350 adalah ...",
+    "answer": "63",
+    "explanation": "10% = 35 dan 8% = 28, sehingga 18% = 63.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "persen"
+    ]
+  },
+  {
+    "id": "ar-005",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "3/8 dari 640 adalah ...",
+    "answer": "240",
+    "explanation": "640 : 8 = 80, lalu 80 × 3 = 240.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "pecahan"
+    ]
+  },
+  {
+    "id": "ar-006",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Hasil dari 1,2 × 0,35 adalah ...",
+    "options": [
+      "0,042",
+      "0,36",
+      "4,2",
+      "0,42"
+    ],
+    "answer": "0,42",
+    "explanation": "12 × 35 = 420; ada tiga angka di belakang koma, sehingga 0,420 = 0,42.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "desimal"
+    ]
+  },
+  {
+    "id": "ar-007",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Hasil dari 56² adalah ...",
+    "answer": "3136",
+    "explanation": "(50 + 6)² = 2500 + 600 + 36 = 3136.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "kuadrat"
+    ]
+  },
+  {
+    "id": "ar-008",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Hasil dari 1001 − 358 adalah ...",
+    "options": [
+      "633",
+      "643",
+      "653",
+      "743"
+    ],
+    "answer": "643",
+    "explanation": "1001 − 358 = 1000 − 358 + 1 = 642 + 1 = 643.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "pengurangan"
+    ]
+  },
+  {
+    "id": "ar-009",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Hasil dari 2,4 : 0,03 adalah ...",
+    "answer": "80",
+    "explanation": "Kalikan keduanya dengan 100: 240 : 3 = 80.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "desimal",
+      "pembagian"
+    ]
+  },
+  {
+    "id": "ar-010",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Hasil dari 77 × 13 adalah ...",
+    "answer": "1001",
+    "explanation": "77 × 13 = 770 + 231 = 1001.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "perkalian"
+    ]
+  },
+  {
+    "id": "ar-011",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Kecepatan 54 km/jam sama dengan ... m/detik.",
+    "answer": "15",
+    "explanation": "Bagi dengan 3,6: 54 : 3,6 = 15.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "konversi satuan"
+    ]
+  },
+  {
+    "id": "ar-012",
+    "mode": "mental",
+    "topic": "Aritmetika",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Hasil dari 1/3 + 1/4 + 1/12 adalah ...",
+    "options": [
+      "5/12",
+      "3/4",
+      "1/2",
+      "2/3"
+    ],
+    "answer": "2/3",
+    "explanation": "Penyebut 12: 4/12 + 3/12 + 1/12 = 8/12 = 2/3.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "pecahan"
+    ]
+  },
+  {
+    "id": "nt-001",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Angka satuan dari 3²⁰²⁷ adalah ...",
+    "answer": "7",
+    "explanation": "Satuan pangkat 3 berulang 3, 9, 7, 1 (periode 4). 2027 mod 4 = 3, jadi satuannya 7.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "angka satuan",
+      "pola"
+    ]
+  },
+  {
+    "id": "nt-002",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Angka satuan dari 2²⁰²⁶ adalah ...",
+    "answer": "4",
+    "explanation": "Satuan pangkat 2 berulang 2, 4, 8, 6. 2026 mod 4 = 2, jadi satuannya 4.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "angka satuan",
+      "pola"
+    ]
+  },
+  {
+    "id": "nt-003",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Berapakah sisa pembagian 2025 oleh 7?",
+    "answer": "2",
+    "explanation": "7 × 289 = 2023, sehingga sisanya 2.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "sisa pembagian"
+    ]
+  },
+  {
+    "id": "nt-004",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Berapakah sisa pembagian 10¹⁰⁰ + 1 oleh 3?",
+    "answer": "2",
+    "explanation": "10 ≡ 1 (mod 3), sehingga 10¹⁰⁰ + 1 ≡ 1 + 1 = 2.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "modulo",
+      "sisa pembagian"
+    ]
+  },
+  {
+    "id": "nt-005",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "FPB dari 48 dan 72 adalah ...",
+    "options": [
+      "24",
+      "36",
+      "18",
+      "12"
+    ],
+    "answer": "24",
+    "explanation": "48 = 2⁴·3 dan 72 = 2³·3², sehingga FPB = 2³·3 = 24.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "FPB"
+    ]
+  },
+  {
+    "id": "nt-006",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "KPK dari 12, 18, dan 30 adalah ...",
+    "options": [
+      "360",
+      "180",
+      "90",
+      "60"
+    ],
+    "answer": "180",
+    "explanation": "12 = 2²·3, 18 = 2·3², 30 = 2·3·5. KPK = 2²·3²·5 = 180.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "KPK"
+    ]
+  },
+  {
+    "id": "nt-007",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Banyak faktor positif dari 100 adalah ...",
+    "options": [
+      "10",
+      "8",
+      "6",
+      "9"
+    ],
+    "answer": "9",
+    "explanation": "100 = 2²·5², banyak faktor = (2 + 1)(2 + 1) = 9.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "faktor"
+    ]
+  },
+  {
+    "id": "nt-008",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Hard",
+    "type": "numeric",
+    "question": "Angka satuan dari 7²⁰²⁴ + 2²⁰²⁴ adalah ...",
+    "answer": "7",
+    "explanation": "7²⁰²⁴: 2024 habis dibagi 4, satuan 1. 2²⁰²⁴: 2024 habis dibagi 4, satuan 6. Jumlah 1 + 6 = 7.",
+    "timeMultiplier": 1.2,
+    "tags": [
+      "gmm-style",
+      "angka satuan",
+      "pola"
+    ]
+  },
+  {
+    "id": "nt-009",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Sisa pembagian 4¹⁰⁰ oleh 5 adalah ...",
+    "options": [
+      "0",
+      "4",
+      "1",
+      "2"
+    ],
+    "answer": "1",
+    "explanation": "4 ≡ −1 (mod 5), sehingga 4¹⁰⁰ ≡ (−1)¹⁰⁰ = 1.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "modulo"
+    ]
+  },
+  {
+    "id": "nt-010",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Jumlah semua faktor prima yang berbeda dari 210 adalah ...",
+    "answer": "17",
+    "explanation": "210 = 2·3·5·7, jumlahnya 17.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "faktorisasi prima"
+    ]
+  },
+  {
+    "id": "nt-011",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Banyak bilangan prima yang kurang dari 30 adalah ...",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ],
+    "answer": "10",
+    "explanation": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29 → 10 bilangan.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "bilangan prima"
+    ]
+  },
+  {
+    "id": "nt-012",
+    "mode": "mental",
+    "topic": "Teori Bilangan",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Bilangan asli terkecil yang habis dibagi 2, 3, 4, 5, dan 6 adalah ...",
+    "answer": "60",
+    "explanation": "KPK(2, 3, 4, 5, 6) = 2²·3·5 = 60.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "KPK"
+    ]
+  },
+  {
+    "id": "ge-001",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Keliling sebuah persegi 48 cm. Luasnya adalah ... cm²",
+    "answer": "144",
+    "explanation": "Sisi = 48 : 4 = 12, luas = 12² = 144.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "luas",
+      "keliling"
+    ]
+  },
+  {
+    "id": "ge-002",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Perbandingan besar sudut-sudut sebuah segitiga adalah 2 : 3 : 4. Sudut terbesar adalah ...°",
+    "options": [
+      "90",
+      "70",
+      "60",
+      "80"
+    ],
+    "answer": "80",
+    "explanation": "Jumlah sudut 180°, satu bagian = 180 : 9 = 20°. Terbesar = 4 × 20° = 80°.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "sudut",
+      "perbandingan"
+    ]
+  },
+  {
+    "id": "ge-003",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Segitiga siku-siku dengan sisi siku-siku 8 cm dan 15 cm memiliki hipotenusa ... cm",
+    "options": [
+      "23",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": "17",
+    "explanation": "Tripel Pythagoras 8-15-17.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "Pythagoras"
+    ]
+  },
+  {
+    "id": "ge-004",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Keliling lingkaran berjari-jari 21 cm (π = 22/7) adalah ... cm",
+    "answer": "132",
+    "explanation": "K = 2πr = 2 × 22/7 × 21 = 132.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "lingkaran",
+      "keliling"
+    ]
+  },
+  {
+    "id": "ge-005",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Luas jajar genjang dengan alas 12 cm dan tinggi 7 cm adalah ... cm²",
+    "answer": "84",
+    "explanation": "L = a × t = 12 × 7 = 84.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "luas",
+      "jajar genjang"
+    ]
+  },
+  {
+    "id": "ge-006",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Jumlah besar sudut dalam segi delapan adalah ...°",
+    "options": [
+      "1440",
+      "1080",
+      "900",
+      "1260"
+    ],
+    "answer": "1080",
+    "explanation": "(8 − 2) × 180° = 1080°.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "sudut",
+      "segi-n"
+    ]
+  },
+  {
+    "id": "ge-007",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Panjang diagonal persegi dengan sisi 10 cm adalah ... cm",
+    "options": [
+      "10√2",
+      "5√2",
+      "10√3",
+      "20"
+    ],
+    "answer": "10√2",
+    "explanation": "Diagonal persegi = s√2 = 10√2.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "diagonal",
+      "persegi"
+    ]
+  },
+  {
+    "id": "ge-008",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Titik tengah ruas garis yang menghubungkan (2, 8) dan (6, −2) adalah ...",
+    "options": [
+      "(2, 5)",
+      "(8, 6)",
+      "(4, 5)",
+      "(4, 3)"
+    ],
+    "answer": "(4, 3)",
+    "explanation": "((2 + 6)/2, (8 − 2)/2) = (4, 3).",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "koordinat",
+      "titik tengah"
+    ]
+  },
+  {
+    "id": "al-001",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Jika 3x − 7 = 20, maka nilai x + 2 adalah ...",
+    "answer": "11",
+    "explanation": "3x = 27, x = 9, sehingga x + 2 = 11.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "persamaan linear"
+    ]
+  },
+  {
+    "id": "al-002",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Hasil dari 2⁵ × 2³ : 2⁶ adalah ...",
+    "answer": "4",
+    "explanation": "2⁵⁺³⁻⁶ = 2² = 4.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "eksponen"
+    ]
+  },
+  {
+    "id": "al-003",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Hasil dari √144 + √81 adalah ...",
+    "options": [
+      "225",
+      "23",
+      "21",
+      "19"
+    ],
+    "answer": "21",
+    "explanation": "12 + 9 = 21.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "akar"
+    ]
+  },
+  {
+    "id": "al-004",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Hasil dari (−3)³ + 5² adalah ...",
+    "options": [
+      "−2",
+      "2",
+      "52",
+      "−52"
+    ],
+    "answer": "−2",
+    "explanation": "−27 + 25 = −2.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "pangkat",
+      "bilangan bulat"
+    ]
+  },
+  {
+    "id": "al-005",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Hasil dari 51² − 49² adalah ...",
+    "answer": "200",
+    "explanation": "(51 + 49)(51 − 49) = 100 × 2 = 200.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "selisih kuadrat"
+    ]
+  },
+  {
+    "id": "al-006",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Jumlah kedua akar persamaan x² − 10x + 21 = 0 adalah ...",
+    "answer": "10",
+    "explanation": "x₁ + x₂ = −b/a = 10 (akarnya 3 dan 7).",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "Vieta"
+    ]
+  },
+  {
+    "id": "al-007",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Suku ke-10 barisan 4, 7, 10, 13, ... adalah ...",
+    "answer": "31",
+    "explanation": "U₁₀ = 4 + 9 × 3 = 31.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "barisan aritmetika"
+    ]
+  },
+  {
+    "id": "al-008",
+    "mode": "mental",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Jika a + b = 6 dan ab = 5, maka a² + b² = ...",
+    "answer": "26",
+    "explanation": "a² + b² = (a + b)² − 2ab = 36 − 10 = 26.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "identitas"
+    ]
+  },
+  {
+    "id": "hs-001",
+    "mode": "mental",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Rata-rata dari 12, 15, 18, 21, 24 adalah ...",
+    "answer": "18",
+    "explanation": "Barisan aritmetika, rata-rata = suku tengah = 18.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "rata-rata"
+    ]
+  },
+  {
+    "id": "pc-001",
+    "mode": "mental",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Sebuah kartu diambil acak dari kartu bernomor 1 sampai 20. Peluang terambil kelipatan 5 adalah ...",
+    "options": [
+      "1/4",
+      "1/5",
+      "1/10",
+      "1/2"
+    ],
+    "answer": "1/5",
+    "explanation": "Kelipatan 5: 5, 10, 15, 20 → 4/20 = 1/5.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "peluang"
+    ]
+  },
+  {
+    "id": "pc-002",
+    "mode": "mental",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Nilai dari 5! adalah ...",
+    "answer": "120",
+    "explanation": "5 × 4 × 3 × 2 × 1 = 120.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "faktorial"
+    ]
+  },
+  {
+    "id": "pc-003",
+    "mode": "mental",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Dari 7 siswa dipilih 2 orang. Banyak cara memilihnya adalah ...",
+    "options": [
+      "21",
+      "35",
+      "42",
+      "14"
+    ],
+    "answer": "21",
+    "explanation": "C(7,2) = 7 × 6 / 2 = 21.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "kombinasi"
+    ]
+  },
+  {
+    "id": "hs-002",
+    "mode": "mental",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Median dari data 4, 10, 6, 8 adalah ...",
+    "answer": "7",
+    "explanation": "Urut: 4, 6, 8, 10. Median = (6 + 8)/2 = 7.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "median"
+    ]
+  },
+  {
+    "id": "pc-004",
+    "mode": "mental",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Dua dadu dilempar bersamaan. Peluang jumlah mata dadu 7 adalah ...",
+    "options": [
+      "7/36",
+      "5/36",
+      "1/6",
+      "1/9"
+    ],
+    "answer": "1/6",
+    "explanation": "Pasangan (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 dari 36 = 1/6.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "peluang",
+      "dua dadu"
+    ]
+  },
+  {
+    "id": "hs-003",
+    "mode": "mental",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Pada himpunan A dan B, n(A) = 12, n(B) = 9, dan n(A ∩ B) = 4. Nilai n(A ∪ B) adalah ...",
+    "answer": "17",
+    "explanation": "n(A ∪ B) = 12 + 9 − 4 = 17.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "himpunan"
+    ]
+  },
+  {
+    "id": "pc-005",
+    "mode": "mental",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Easy",
+    "type": "numeric",
+    "question": "Banyak susunan berbeda dari huruf-huruf pada kata CAT adalah ...",
+    "answer": "6",
+    "explanation": "3! = 6.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "permutasi"
+    ]
+  },
+  {
+    "id": "hs-004",
+    "mode": "mental",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Rata-rata 4 bilangan adalah 15. Jika tiga bilangan di antaranya berjumlah 40, bilangan keempat adalah ...",
+    "answer": "20",
+    "explanation": "Jumlah 4 bilangan = 60, sehingga bilangan keempat = 60 − 40 = 20.",
+    "timeMultiplier": 0.9,
+    "tags": [
+      "gmm-style",
+      "rata-rata"
+    ]
+  },
+  {
+    "id": "ge-009",
+    "mode": "mental",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Banyak diagonal pada segi enam adalah ...",
+    "options": [
+      "12",
+      "6",
+      "9",
+      "15"
+    ],
+    "answer": "9",
+    "explanation": "n(n − 3)/2 = 6 × 3 / 2 = 9.",
+    "timeMultiplier": 0.7,
+    "tags": [
+      "gmm-style",
+      "diagonal",
+      "segi-n"
+    ]
+  },
+  {
+    "id": "nt-013",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Angka satuan dari 2023⁸ + 38⁷ − 6⁵ adalah ...",
+    "answer": "7",
+    "explanation": "Satuan 3⁸ = 1 (periode 4, 8 mod 4 = 0); satuan 8⁷ = 2 (8,4,2,6; 7 mod 4 = 3); satuan 6⁵ = 6. Jadi 1 + 2 − 6 = −3 ≡ 7 (mod 10).",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "angka satuan",
+      "modulo",
+      "mixed-skill"
+    ]
+  },
+  {
+    "id": "nt-014",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Dua bilangan asli berbeda memiliki FPB 12 dan KPK 360. Jumlah terkecil kedua bilangan itu adalah ...",
+    "options": [
+      "156",
+      "204",
+      "132",
+      "372"
+    ],
+    "answer": "132",
+    "explanation": "Tulis bilangannya 12a dan 12b dengan a, b saling prima dan ab = 360/12 = 30. Pasangan (1,30), (2,15), (3,10), (5,6). Jumlah terkecil: 12(5 + 6) = 132.",
+    "timeMultiplier": 1.7,
+    "tags": [
+      "gmm-style",
+      "FPB",
+      "KPK",
+      "mixed-skill"
+    ]
+  },
+  {
+    "id": "nt-015",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "x bersisa 3 jika dibagi 7 dan y bersisa 5 jika dibagi 7. Sisa pembagian 3x + 2y oleh 7 adalah ...",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "x = 7a + 3 dan y = 7b + 5, maka 3x + 2y ≡ 9 + 10 = 19 ≡ 5 (mod 7).",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "modulo",
+      "sisa pembagian"
+    ]
+  },
+  {
+    "id": "nt-016",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Banyak faktor positif dari 2³ × 3² × 5 adalah ...",
+    "options": [
+      "12",
+      "18",
+      "30",
+      "24"
+    ],
+    "answer": "24",
+    "explanation": "(3 + 1)(2 + 1)(1 + 1) = 24.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "faktor",
+      "faktorisasi prima"
+    ]
+  },
+  {
+    "id": "nt-017",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Jika 2ˣ · 3ʸ = 12⁵ × 18³ dengan x, y bilangan bulat, maka x + y = ...",
+    "answer": "24",
+    "explanation": "12⁵ = 2¹⁰·3⁵ dan 18³ = 2³·3⁶. Hasil kali = 2¹³·3¹¹, sehingga x = 13, y = 11, x + y = 24.",
+    "timeMultiplier": 1.4,
+    "tags": [
+      "gmm-style",
+      "eksponen",
+      "faktorisasi prima",
+      "mixed-skill"
+    ]
+  },
+  {
+    "id": "al-009",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Jika 2^(a−b) = 4 dan 2ᵃ + 2ᵇ = 40, maka 2ᵃ − 2ᵇ = ...",
+    "answer": "24",
+    "explanation": "a − b = 2, sehingga 2ᵃ = 4·2ᵇ. Maka 5·2ᵇ = 40, 2ᵇ = 8 dan 2ᵃ = 32. Selisihnya 24.",
+    "timeMultiplier": 1.4,
+    "tags": [
+      "gmm-style",
+      "eksponen",
+      "sistem persamaan"
+    ]
+  },
+  {
+    "id": "nt-018",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Hard",
+    "type": "numeric",
+    "question": "Bilangan asli terkecil n sehingga 13n + 5 habis dibagi 21 adalah ...",
+    "answer": "19",
+    "explanation": "13n ≡ −5 ≡ 16 (mod 21). Invers 13 mod 21 adalah 13 (13·13 = 169 = 8·21 + 1). Maka n ≡ 16·13 = 208 ≡ 19. Cek: 13·19 + 5 = 252 = 12·21.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "kongruensi",
+      "modulo"
+    ]
+  },
+  {
+    "id": "nt-019",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Banyak bilangan asli dari 1 sampai 200 yang habis dibagi 4 atau 6 adalah ...",
+    "answer": "67",
+    "explanation": "Habis dibagi 4: 50. Habis dibagi 6: 33. Habis dibagi 12 (keduanya): 16. Jadi 50 + 33 − 16 = 67.",
+    "timeMultiplier": 1.4,
+    "tags": [
+      "gmm-style",
+      "inklusi-eksklusi",
+      "kelipatan"
+    ]
+  },
+  {
+    "id": "nt-020",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Banyak bilangan asli kurang dari atau sama dengan 120 yang habis dibagi 6 tetapi tidak habis dibagi 4 adalah ...",
+    "options": [
+      "8",
+      "10",
+      "15",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "Kelipatan 6: 20 bilangan. Kelipatan 12 (habis dibagi 6 dan 4): 10 bilangan. Jadi 20 − 10 = 10.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "kelipatan",
+      "himpunan"
+    ]
+  },
+  {
+    "id": "nt-021",
+    "mode": "method",
+    "topic": "Teori Bilangan",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Sisa pembagian 2¹⁰⁰ oleh 7 adalah ...",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "0"
+    ],
+    "answer": "2",
+    "explanation": "2³ = 8 ≡ 1 (mod 7). 100 = 3·33 + 1, sehingga 2¹⁰⁰ ≡ 2.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "modulo",
+      "sisa pembagian"
+    ]
+  },
+  {
+    "id": "al-010",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Jika x = √(7 + 2√12) dan y = √(7 − 2√12), maka x² + y² = ...",
+    "answer": "14",
+    "explanation": "x² = 7 + 2√12 dan y² = 7 − 2√12. Jumlahnya 14.",
+    "timeMultiplier": 1.2,
+    "tags": [
+      "gmm-style",
+      "bentuk akar",
+      "identitas"
+    ]
+  },
+  {
+    "id": "al-011",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Jika x = √(7 + 2√12) dan y = √(7 − 2√12) dengan x, y > 0, maka x − y = ...",
+    "options": [
+      "√3",
+      "2√3",
+      "4",
+      "2"
+    ],
+    "answer": "2√3",
+    "explanation": "7 + 2√12 = 7 + 4√3 = (2 + √3)², dan 7 − 4√3 = (2 − √3)². Jadi x = 2 + √3, y = 2 − √3 dan x − y = 2√3.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "bentuk akar",
+      "akar bersarang"
+    ]
+  },
+  {
+    "id": "al-012",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Harga 4 pensil dan 3 bolpoin adalah Rp18.000, sedangkan harga 2 pensil dan 5 bolpoin Rp16.000. Jika harga pensil naik 10% dan bolpoin naik 20%, harga 6 pensil dan 4 bolpoin sekarang adalah Rp ... (tulis angka saja)",
+    "answer": "29400",
+    "explanation": "Eliminasi: 4x + 3y = 18000 dan 4x + 10y = 32000 → 7y = 14000, y = 2000, x = 3000. Harga baru: 3300 dan 2400. 6 × 3300 + 4 × 2400 = 19800 + 9600 = 29400.",
+    "timeMultiplier": 1.6,
+    "tags": [
+      "gmm-style",
+      "SPLDV",
+      "persen",
+      "mixed-skill"
+    ]
+  },
+  {
+    "id": "al-013",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Garis y = 2x − 3 memotong parabola y = x² − 2x − 3 di titik P dan Q. Panjang PQ adalah ...",
+    "options": [
+      "8",
+      "4√3",
+      "2√5",
+      "4√5"
+    ],
+    "answer": "4√5",
+    "explanation": "2x − 3 = x² − 2x − 3 → x² − 4x = 0 → x = 0 atau 4. P(0, −3), Q(4, 5). PQ = √(16 + 64) = √80 = 4√5.",
+    "timeMultiplier": 1.6,
+    "tags": [
+      "gmm-style",
+      "jarak titik",
+      "persamaan kuadrat"
+    ]
+  },
+  {
+    "id": "al-014",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Hard",
+    "type": "numeric",
+    "question": "Pada barisan 3, 8, 15, 24, 35, ..., suku ke-n bernilai 399. Nilai n adalah ...",
+    "answer": "19",
+    "explanation": "Selisih berurutan 5, 7, 9, 11 (barisan aritmetika). Suku ke-n = n² + 2n. n² + 2n = 399 → (n + 1)² = 400 → n = 19.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "barisan bertingkat",
+      "kuadrat sempurna"
+    ]
+  },
+  {
+    "id": "al-015",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Persamaan x² − 6x + k = 0 mempunyai dua akar yang selisihnya 2. Nilai k adalah ...",
+    "options": [
+      "9",
+      "5",
+      "8",
+      "12"
+    ],
+    "answer": "8",
+    "explanation": "x₁ + x₂ = 6 dan x₁ − x₂ = 2 → akarnya 4 dan 2. k = x₁x₂ = 8.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "Vieta",
+      "persamaan kuadrat"
+    ]
+  },
+  {
+    "id": "al-016",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Jika α dan β adalah akar-akar x² − 5x + 6 = 0, maka α² + β² = ...",
+    "options": [
+      "11",
+      "13",
+      "37",
+      "25"
+    ],
+    "answer": "13",
+    "explanation": "α² + β² = (α + β)² − 2αβ = 25 − 12 = 13.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "Vieta",
+      "identitas"
+    ]
+  },
+  {
+    "id": "al-017",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Fungsi f(x) = ax + b dengan f(2) = 7 dan f(5) = 16. Nilai f(10) adalah ...",
+    "answer": "31",
+    "explanation": "a = (16 − 7)/(5 − 2) = 3, b = 7 − 6 = 1. f(10) = 31.",
+    "timeMultiplier": 1.2,
+    "tags": [
+      "gmm-style",
+      "fungsi linear"
+    ]
+  },
+  {
+    "id": "al-018",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Bentuk sederhana dari 4/(√7 − √3) adalah ...",
+    "options": [
+      "√7 + √3",
+      "√7 − √3",
+      "4(√7 + √3)",
+      "(√7 + √3)/4"
+    ],
+    "answer": "√7 + √3",
+    "explanation": "Kalikan sekawan: 4(√7 + √3)/(7 − 3) = √7 + √3.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "merasionalkan",
+      "bentuk akar"
+    ]
+  },
+  {
+    "id": "al-019",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Harga sebuah jaket Rp80.000 naik 25%, kemudian turun 20%. Harga akhirnya adalah ...",
+    "options": [
+      "Rp80.000",
+      "Rp76.000",
+      "Rp84.000",
+      "Rp100.000"
+    ],
+    "answer": "Rp80.000",
+    "explanation": "Faktor perubahan 1,25 × 0,8 = 1. Harga kembali ke Rp80.000.",
+    "timeMultiplier": 1.2,
+    "tags": [
+      "gmm-style",
+      "persen",
+      "faktor pengali",
+      "mixed-skill"
+    ]
+  },
+  {
+    "id": "al-020",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Nilai x yang memenuhi 4^(x−1) = 8^(x−3) adalah ...",
+    "options": [
+      "5",
+      "11",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "2(x − 1) = 3(x − 3) → 2x − 2 = 3x − 9 → x = 7.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "eksponen",
+      "persamaan eksponen"
+    ]
+  },
+  {
+    "id": "al-021",
+    "mode": "method",
+    "topic": "Aljabar",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Banyak bilangan bulat x yang memenuhi (x − 3)^(x² − 16) = 1 adalah ...",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": "3",
+    "explanation": "Ada tiga kondisi: (1) eksponen 0 → x = ±4 (basis tidak nol); (2) basis 1 → x = 4 (sudah terhitung); (3) basis −1 dengan eksponen genap → x = 2 (eksponen −12). Nilai x = −4, 2, 4 → 3 nilai.",
+    "timeMultiplier": 2.0,
+    "tags": [
+      "gmm-style",
+      "eksponen",
+      "kasus"
+    ]
+  },
+  {
+    "id": "ge-010",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Luas permukaan tabung (r = 3, t = 8) dikurangi luas permukaan kerucut (r = 3, t = 4) adalah ...",
+    "options": [
+      "24π",
+      "66π",
+      "42π",
+      "90π"
+    ],
+    "answer": "42π",
+    "explanation": "Tabung: 2πr(r + t) = 2π·3·11 = 66π. Kerucut: s = 5, πr(r + s) = π·3·8 = 24π. Selisih 42π.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "luas permukaan",
+      "tabung",
+      "kerucut"
+    ]
+  },
+  {
+    "id": "ge-011",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Sebuah lingkaran terletak tepat di dalam persegi berkeliling 56 cm (menyinggung semua sisi). Luas lingkaran tersebut adalah ... cm² (π = 22/7)",
+    "answer": "154",
+    "explanation": "Sisi persegi 14, jari-jari lingkaran 7. L = 22/7 × 49 = 154.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "lingkaran",
+      "persegi",
+      "luas"
+    ]
+  },
+  {
+    "id": "ge-012",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Persegi besar bersisi 13 cm. Di dalamnya terdapat dua persegi kecil yang tidak saling tumpang tindih, masing-masing bersisi 5 cm dan 7 cm. Luas daerah di luar kedua persegi kecil adalah ... cm²",
+    "options": [
+      "120",
+      "119",
+      "95",
+      "144"
+    ],
+    "answer": "95",
+    "explanation": "169 − 25 − 49 = 95.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "luas",
+      "persegi"
+    ]
+  },
+  {
+    "id": "ge-013",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Panjang ruas garis AB dengan A(−1, 2) dan B(7, −4) adalah ...",
+    "options": [
+      "12",
+      "8",
+      "10",
+      "14"
+    ],
+    "answer": "10",
+    "explanation": "AB = √(8² + 6²) = √100 = 10.",
+    "timeMultiplier": 1.0,
+    "tags": [
+      "gmm-style",
+      "jarak titik",
+      "Pythagoras"
+    ]
+  },
+  {
+    "id": "ge-014",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Titik P(5, 2) direfleksikan terhadap sumbu-y, ditranslasikan oleh (4, −1), lalu dirotasi 180° terhadap titik asal. Koordinat akhirnya adalah ...",
+    "options": [
+      "(1, −1)",
+      "(1, 1)",
+      "(−1, −1)",
+      "(−1, 1)"
+    ],
+    "answer": "(1, −1)",
+    "explanation": "Refleksi sumbu-y: (−5, 2). Translasi: (−1, 1). Rotasi 180° terhadap O: (x, y) → (−x, −y) = (1, −1).",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "transformasi",
+      "refleksi",
+      "rotasi",
+      "translasi"
+    ]
+  },
+  {
+    "id": "ge-015",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Titik C(0, 4) direfleksikan terhadap garis x = 3, kemudian dirotasi 180° terhadap titik (2, 1). Koordinat akhirnya adalah ...",
+    "options": [
+      "(6, −2)",
+      "(−2, −2)",
+      "(2, −2)",
+      "(−2, 2)"
+    ],
+    "answer": "(−2, −2)",
+    "explanation": "Refleksi x = 3: (x, y) → (6 − x, y) = (6, 4). Rotasi 180° terhadap (h, k): (2h − x, 2k − y) = (4 − 6, 2 − 4) = (−2, −2).",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "transformasi",
+      "refleksi",
+      "rotasi"
+    ]
+  },
+  {
+    "id": "ge-016",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Pada segitiga ABC, titik D terletak pada AC dengan AD : DC = 2 : 3. Jika luas segitiga ABC adalah 60 cm², luas segitiga ABD adalah ... cm²",
+    "answer": "24",
+    "explanation": "Kedua segitiga memiliki tinggi yang sama dari B, sehingga luas sebanding dengan alas: 2/5 × 60 = 24.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "luas",
+      "perbandingan"
+    ]
+  },
+  {
+    "id": "ge-017",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Hard",
+    "type": "numeric",
+    "question": "Luas segiempat ABCD dengan A(0, 0), B(8, −2), C(10, 6), dan D(1, 7) adalah ... satuan luas",
+    "answer": "66",
+    "explanation": "Rumus tali sepatu (Shoelace): jumlah turun = 0·(−2) + 8·6 + 10·7 + 1·0 = 118; jumlah naik = 0·8 + (−2)·10 + 6·1 + 7·0 = −14. Luas = ½|118 − (−14)| = 66.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "shoelace",
+      "koordinat",
+      "luas"
+    ]
+  },
+  {
+    "id": "ge-018",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Luas segitiga dengan panjang sisi 9 cm, 10 cm, dan 17 cm adalah ... cm²",
+    "options": [
+      "72",
+      "45",
+      "90",
+      "36"
+    ],
+    "answer": "36",
+    "explanation": "Heron: s = 18, L = √(18·9·8·1) = √1296 = 36.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "rumus Heron",
+      "luas"
+    ]
+  },
+  {
+    "id": "ge-019",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Luas juring lingkaran berjari-jari 21 cm dengan sudut pusat 120° adalah ... cm² (π = 22/7)",
+    "answer": "462",
+    "explanation": "L = 120/360 × 22/7 × 441 = 1/3 × 1386 = 462.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "juring",
+      "lingkaran"
+    ]
+  },
+  {
+    "id": "ge-020",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Tiang setinggi 3 m berbayangan 2 m. Pada saat yang sama sebuah pohon berbayangan 10 m. Tinggi pohon adalah ... m",
+    "options": [
+      "15",
+      "20",
+      "18",
+      "12"
+    ],
+    "answer": "15",
+    "explanation": "Kesebangunan: t/10 = 3/2 → t = 15.",
+    "timeMultiplier": 1.0,
+    "tags": [
+      "gmm-style",
+      "kesebangunan"
+    ]
+  },
+  {
+    "id": "ge-021",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Volume bola berjari-jari 6 cm adalah ...",
+    "options": [
+      "216π cm³",
+      "864π cm³",
+      "144π cm³",
+      "288π cm³"
+    ],
+    "answer": "288π cm³",
+    "explanation": "V = 4/3 πr³ = 4/3 × π × 216 = 288π.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "volume",
+      "bola"
+    ]
+  },
+  {
+    "id": "ge-022",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Besar sudut dalam sebuah segi-n beraturan adalah 156°. Nilai n adalah ...",
+    "options": [
+      "12",
+      "15",
+      "20",
+      "18"
+    ],
+    "answer": "15",
+    "explanation": "Sudut luar = 180° − 156° = 24°, n = 360° : 24° = 15.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "sudut",
+      "segi-n"
+    ]
+  },
+  {
+    "id": "ge-023",
+    "mode": "method",
+    "topic": "Geometri",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Diagram lingkaran menunjukkan kegemaran siswa. Sudut juring voli 60° mewakili 40 siswa. Jika sudut juring renang 105°, banyak siswa yang gemar renang adalah ...",
+    "answer": "70",
+    "explanation": "1° mewakili 40/60 = 2/3 siswa. 105 × 2/3 = 70.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "diagram lingkaran",
+      "perbandingan"
+    ]
+  },
+  {
+    "id": "pc-006",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Banyak susunan berbeda dari huruf-huruf pada kata MATEMATIKA adalah ...",
+    "answer": "151200",
+    "explanation": "10 huruf dengan M dua kali, A tiga kali, T dua kali: 10!/(2!·3!·2!) = 3628800/24 = 151200.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "permutasi unsur sama"
+    ]
+  },
+  {
+    "id": "pc-007",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Banyak susunan huruf pada kata ANGKA sehingga kedua huruf A tidak berdampingan adalah ...",
+    "options": [
+      "48",
+      "60",
+      "24",
+      "36"
+    ],
+    "answer": "36",
+    "explanation": "Total: 5!/2! = 60. Kedua A berdampingan (AA dianggap satu blok): 4! = 24. Jadi 60 − 24 = 36.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "permutasi",
+      "komplemen"
+    ]
+  },
+  {
+    "id": "pc-008",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Sebuah kotak berisi 4 bola merah, 2 bola putih, dan 4 bola biru. Diambil 3 bola sekaligus. Peluang terambil tepat dua bola berwarna sama adalah ...",
+    "options": [
+      "2/3",
+      "1/2",
+      "3/4",
+      "5/6"
+    ],
+    "answer": "2/3",
+    "explanation": "Total C(10,3) = 120. Tepat dua sama: merah C(4,2)·6 = 36; putih C(2,2)·8 = 8; biru C(4,2)·6 = 36. Jumlah 80. P = 80/120 = 2/3.",
+    "timeMultiplier": 2.0,
+    "tags": [
+      "gmm-style",
+      "peluang",
+      "kombinasi",
+      "kasus"
+    ]
+  },
+  {
+    "id": "pc-009",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Dua dadu dilempar bersamaan. Peluang jumlah kedua mata dadu paling sedikit 9 adalah ...",
+    "options": [
+      "1/4",
+      "1/6",
+      "7/18",
+      "5/18"
+    ],
+    "answer": "5/18",
+    "explanation": "Pasangan dengan jumlah ≥ 9: jumlah 9 (4), 10 (3), 11 (2), 12 (1) = 10. P = 10/36 = 5/18.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "peluang",
+      "dua dadu"
+    ]
+  },
+  {
+    "id": "pc-010",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Tiga dadu dilempar bersamaan. Peluang jumlah ketiga mata dadu adalah 9 adalah ...",
+    "options": [
+      "1/8",
+      "25/216",
+      "1/12",
+      "5/36"
+    ],
+    "answer": "25/216",
+    "explanation": "Jumlah 9 terjadi pada 25 dari 6³ = 216 hasil (mis. 1-2-6: 6 cara, 1-3-5: 6, 1-4-4: 3, 2-2-5: 3, 2-3-4: 6, 3-3-3: 1).",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "peluang",
+      "tiga dadu"
+    ]
+  },
+  {
+    "id": "pc-011",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Sebuah tim terdiri dari 5 putra dan 4 putri. Akan dipilih 3 orang perwakilan yang memuat paling sedikit 1 putri. Banyak cara memilihnya adalah ...",
+    "answer": "74",
+    "explanation": "Total C(9,3) = 84. Tanpa putri: C(5,3) = 10. Jadi 84 − 10 = 74.",
+    "timeMultiplier": 1.4,
+    "tags": [
+      "gmm-style",
+      "kombinasi",
+      "komplemen"
+    ]
+  },
+  {
+    "id": "pc-012",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Easy",
+    "type": "multiple",
+    "question": "Dalam sebuah pertemuan, 10 orang saling berjabat tangan tepat satu kali dengan setiap orang lainnya. Banyak jabat tangan adalah ...",
+    "options": [
+      "90",
+      "100",
+      "20",
+      "45"
+    ],
+    "answer": "45",
+    "explanation": "C(10,2) = 10 × 9 / 2 = 45.",
+    "timeMultiplier": 1.0,
+    "tags": [
+      "gmm-style",
+      "kombinasi"
+    ]
+  },
+  {
+    "id": "pc-013",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Hard",
+    "type": "numeric",
+    "question": "Banyak bilangan genap tiga angka dengan angka-angka berbeda yang dapat dibentuk dari angka 0, 1, 2, 3, 4 adalah ...",
+    "answer": "30",
+    "explanation": "Satuan 0: 4·3 = 12 bilangan. Satuan 2 atau 4 (2 pilihan): ratusan tidak boleh 0 dan tidak sama satuan → 3 pilihan, puluhan 3 pilihan → 2 × 3 × 3 = 18. Total 30.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "pencacahan",
+      "kasus"
+    ]
+  },
+  {
+    "id": "pc-014",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Hard",
+    "type": "multiple",
+    "question": "Tujuh orang duduk melingkar. Banyak cara duduk jika dua orang tertentu harus berdampingan adalah ...",
+    "options": [
+      "720",
+      "120",
+      "240",
+      "1440"
+    ],
+    "answer": "240",
+    "explanation": "Anggap dua orang sebagai satu blok: 6 objek melingkar → (6 − 1)! = 120 susunan, dikali 2 untuk urutan di dalam blok = 240.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "permutasi siklis",
+      "blok"
+    ]
+  },
+  {
+    "id": "pc-015",
+    "mode": "method",
+    "topic": "Pencacahan & Peluang",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Dua dadu dilempar bersamaan. Peluang jumlah mata dadu merupakan bilangan prima adalah ...",
+    "options": [
+      "7/18",
+      "1/3",
+      "1/2",
+      "5/12"
+    ],
+    "answer": "5/12",
+    "explanation": "Jumlah prima: 2 (1 cara), 3 (2), 5 (4), 7 (6), 11 (2) = 15. P = 15/36 = 5/12.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "peluang",
+      "bilangan prima",
+      "mixed-skill"
+    ]
+  },
+  {
+    "id": "hs-005",
+    "mode": "method",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Hard",
+    "type": "numeric",
+    "question": "Dari 40 siswa, 5 siswa tidak gemar renang maupun voli, dan 7 siswa gemar keduanya. Banyak siswa gemar renang adalah dua kali banyak siswa gemar voli. Banyak siswa yang hanya gemar renang adalah ...",
+    "answer": "21",
+    "explanation": "Gemar minimal salah satu = 35. Misal voli = y, renang = 2y: 2y + y − 7 = 35 → y = 14, renang = 28. Hanya renang = 28 − 7 = 21.",
+    "timeMultiplier": 1.8,
+    "tags": [
+      "gmm-style",
+      "himpunan",
+      "diagram Venn"
+    ]
+  },
+  {
+    "id": "hs-006",
+    "mode": "method",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Rata-rata 8 bilangan adalah 14. Setelah ditambah satu bilangan, rata-ratanya menjadi 15. Bilangan yang ditambahkan adalah ...",
+    "answer": "23",
+    "explanation": "Jumlah baru = 9 × 15 = 135, jumlah lama = 8 × 14 = 112. Selisih = 23.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "rata-rata"
+    ]
+  },
+  {
+    "id": "hs-007",
+    "mode": "method",
+    "topic": "Himpunan & Statistika",
+    "difficulty": "Medium",
+    "type": "multiple",
+    "question": "Nilai rata-rata ujian kelas A (30 siswa) adalah 72 dan kelas B (20 siswa) adalah 82. Rata-rata gabungan kedua kelas adalah ...",
+    "options": [
+      "77",
+      "78",
+      "76",
+      "75"
+    ],
+    "answer": "76",
+    "explanation": "(30 × 72 + 20 × 82)/50 = (2160 + 1640)/50 = 76.",
+    "timeMultiplier": 1.3,
+    "tags": [
+      "gmm-style",
+      "rata-rata gabungan"
+    ]
+  },
+  {
+    "id": "ar-013",
+    "mode": "method",
+    "topic": "Aritmetika",
+    "difficulty": "Medium",
+    "type": "numeric",
+    "question": "Sebuah mobil menempuh jarak tertentu dengan kecepatan 30 km/jam dan kembali lewat jalan yang sama dengan kecepatan 60 km/jam. Kecepatan rata-rata seluruh perjalanan adalah ... km/jam",
+    "answer": "40",
+    "explanation": "Rata-rata harmonik: 2·30·60/(30 + 60) = 3600/90 = 40.",
+    "timeMultiplier": 1.5,
+    "tags": [
+      "gmm-style",
+      "kecepatan rata-rata",
+      "mixed-skill"
+    ]
+  }
+]
